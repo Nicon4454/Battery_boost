@@ -1,0 +1,18 @@
+<GDInfos>
+<GDInfo name="lng_en" class="GDGameLanguage">
+        <components>
+            <comp class="CProperties">
+                <display_name>English</display_name>
+                <language_code>en-US</language_code>  
+            </comp>
+        </components>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_batterycap_1.name">Improved Robot Battery Density</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_batterycap_1.desc">Increase the robot battery density {0}</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_batterycap_2.name">Advanced Robot Battery Density</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_batterycap_2.desc">Increase the robot battery density {0}</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_batterycap_3.name">Elite Robot Battery Density</gstr>
+        <gstr name="GDEquipment_ColonistAttribute.ei_cr_batterycap_3.desc">Increase the robot battery density {0}</gstr>
+    </GDInfo>
+
+
+</GDInfos>

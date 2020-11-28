@@ -1,0 +1,203 @@
+<GDInfos>
+    <GDInfo name="ei_cr_batterycap_1" class="GDEquipment_ColonistAttribute">
+        <comp class="CProperties">
+            <tags>battery</tags>
+            <target_group>cgrp_robot</target_group>
+            <ui_icon>Items/IconBatteryBoost1</ui_icon>
+            <rarity>ir_uncommon</rarity>
+            <type>it_colonist_equipment</type>
+            <attribute_effect>ae_ei_cr_batterycap_1</attribute_effect>
+        </comp>
+    </GDInfo>
+
+    <GDInfo name="ei_cr_batterycap_2" class="GDEquipment_ColonistAttribute">
+        <comp class="CProperties">
+            <tags>battery</tags>
+            <target_group>cgrp_robot</target_group>
+            <ui_icon>Items/IconBatteryBoost2</ui_icon>
+            <rarity>ir_uncommon</rarity>
+            <type>it_colonist_equipment</type>
+            <attribute_effect>ae_ei_cr_batterycap_2</attribute_effect>
+        </comp>
+    </GDInfo>
+
+    <GDInfo name="ei_cr_batterycap_3" class="GDEquipment_ColonistAttribute">
+        <comp class="CProperties">
+            <tags>battery</tags>
+            <target_group>cgrp_robot</target_group>
+            <ui_icon>Items/IconBatteryBoost3</ui_icon>
+            <rarity>ir_uncommon</rarity>
+            <type>it_colonist_equipment</type>
+            <attribute_effect>ae_ei_cr_batterycap_3</attribute_effect>
+        </comp>
+    </GDInfo>
+
+    <GDInfo name="ae_ei_cr_batterycap_1" class="GDAttributeEffect">
+        <components>
+            <comp class="CProperties">   
+                <dname_id>GDEquipment_ColonistAttribute.ei_cr_batterycap_1.name</dname_id>
+                <attribute_id>c_power</attribute_id>
+                <type type="enum:EAttrEffectType">Offset</type>
+                <mode type="enum:EAttrEffectMode">Multiply</mode>
+                <target type="enum:EAttrEffectTarget">Max</target>
+                <value>2</value>
+            </comp>
+        </components>
+    </GDInfo>
+
+    <GDInfo name="ae_ei_cr_batterycap_2" class="GDAttributeEffect">
+        <components>
+            <comp class="CProperties">   
+                <dname_id>GDEquipment_ColonistAttribute.ei_cr_batterycap_2.name</dname_id>
+                <attribute_id>c_power</attribute_id>
+                <type type="enum:EAttrEffectType">Offset</type>
+                <mode type="enum:EAttrEffectMode">Multiply</mode>
+                <target type="enum:EAttrEffectTarget">Max</target>
+                <value>4</value>
+            </comp>
+        </components>
+    </GDInfo>
+
+    <GDInfo name="ae_ei_cr_batterycap_3" class="GDAttributeEffect">
+        <components>
+            <comp class="CProperties">   
+                <dname_id>GDEquipment_ColonistAttribute.ei_cr_batterycap_3.name</dname_id>
+                <attribute_id>c_power</attribute_id>
+                <type type="enum:EAttrEffectType">Offset</type>
+                <mode type="enum:EAttrEffectMode">Multiply</mode>
+                <target type="enum:EAttrEffectTarget">Max</target>
+                <value>6</value>
+            </comp>
+        </components>
+    </GDInfo>
+
+    <GDInfo name="recipe_ei_o_batterycap_1" class="GDRecipe">
+        <components>
+            <comp class="CProperties">
+                <craft_time>5</craft_time>
+                <output_item_id>ei_cr_batterycap_1</output_item_id>
+                <output_item_count>1</output_item_count>
+                <input_items type="Inventory">
+                    <item qty="4">res_electronics</item>
+                    <item qty="8">res_mechparts</item>
+                    <item qty="5">res_copper</item>
+                    <item qty="1">res_processor</item>
+                </input_items>
+                <ingredients type="Ingredients">
+                    <slot>
+                        <ids>
+                            <i qty="4">res_electronics</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="8">res_mechparts</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="5">res_copper</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="1">res_processor</i>
+                        </ids>
+                    </slot>
+                </ingredients>
+                <craft_station>tech_printer</craft_station>
+                <profession>prof_engineer</profession>
+
+                <ui_icon>Icons/IconRecipe</ui_icon>
+                <group>t1_printtech</group>
+            </comp>
+        </components>
+    </GDInfo>
+
+    <GDInfo name="recipe_ei_o_batterycap_2" class="GDRecipe">
+        <components>
+            <comp class="CProperties">
+                <craft_time>5</craft_time>
+                <output_item_id>ei_cr_batterycap_2</output_item_id>
+                <output_item_count>1</output_item_count>
+                <input_items type="Inventory">
+                    <item qty="8">res_electronics</item>
+                    <item qty="16">res_mechparts</item>
+                    <item qty="10">res_copper</item>
+                    <item qty="2">res_processor</item>
+                </input_items>
+                <ingredients type="Ingredients">
+                    <slot>
+                        <ids>
+                            <i qty="8">res_electronics</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="16">res_mechparts</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="10">res_copper</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="2">res_processor</i>
+                        </ids>
+                    </slot>
+                </ingredients>
+                <craft_station>tech_printer</craft_station>
+                <profession>prof_engineer</profession>
+
+                <ui_icon>Icons/IconRecipe</ui_icon>
+                <group>t1_printtech</group>
+            </comp>
+        </components>
+    </GDInfo>
+
+    <GDInfo name="recipe_ei_o_batterycap_3" class="GDRecipe">
+        <components>
+            <comp class="CProperties">
+                <craft_time>5</craft_time>
+                <output_item_id>ei_cr_batterycap_3</output_item_id>
+                <output_item_count>1</output_item_count>
+                <input_items type="Inventory">
+                    <item qty="12">res_electronics</item>
+                    <item qty="8">res_hardenedmechparts</item>
+                    <item qty="15">res_copper</item>
+                    <item qty="3">res_processor</item>
+                </input_items>
+                <ingredients type="Ingredients">
+                    <slot>
+                        <ids>
+                            <i qty="12">res_electronics</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="8">res_hardenedmechparts</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="15">res_copper</i>
+                        </ids>
+                    </slot>
+                    <slot>
+                        <ids>
+                            <i qty="3">res_processor</i>
+                        </ids>
+                    </slot>
+                </ingredients>
+                <craft_station>tech_printer</craft_station>
+                <profession>prof_engineer</profession>
+
+                <ui_icon>Icons/IconRecipe</ui_icon>
+                <group>t1_printtech</group>
+            </comp>
+        </components>
+    </GDInfo>
+
+</GDInfos>
